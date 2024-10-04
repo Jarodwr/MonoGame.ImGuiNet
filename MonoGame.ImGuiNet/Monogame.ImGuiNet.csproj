@@ -9,34 +9,24 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Authors>Mezo</Authors>
-        <Company>Abslute Chaos</Company>
-        <Copyright>Copyright (c) 2023 Mezo</Copyright>
-
-        <RepositoryUrl>https://github.com/Mezo-hx/MonoGame.ImGuiNet</RepositoryUrl>
-        <RepositoryType>git</RepositoryType>
-        <RepositoryBranch>main</RepositoryBranch>
-        <NeutralLanguage>en</NeutralLanguage>
-    </PropertyGroup>
-
-    <PropertyGroup>
-        <PackageId>MonoGame.ImGuiNet</PackageId>
-
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Jarodwr.MonoGameImGuiNet</PackageId>
+        <Title>Jarodwr.MonoGameImGuiNet</Title>
+        <Version>1.0.0</Version>
+        <Authors>Jarod Wright</Authors>
+        <Company>N/A</Company>
+        <Description>Fork that builds correctly on nuget</Description>
+        <RepositoryUrl>https://github.com/jarodwr/MonoGame.ImGuiNet</RepositoryUrl>
         <PackageIcon>NugetpkgIcon.png</PackageIcon>
         <PackageTags>
             MonoGame;ImGui;import;processes;read;write;gui;
         </PackageTags>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <PackageReleaseNotes>
             [General fixes]
         </PackageReleaseNotes>
-        <Description>
-            A superset of ImGuiNet with additional components designed for Monogame
-        </Description>
-        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-        <Title>MonoGame.ImGuiNet</Title>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 
     <ItemGroup>
